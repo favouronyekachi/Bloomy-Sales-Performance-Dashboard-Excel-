@@ -51,27 +51,27 @@ This dashboard solves the problem by consolidating raw sales order data into a s
 - Created a custom composite `Row_Id` field (Category prefix + Order Id + row number) to support unique row-level identification
 - Loaded the cleaned query into a live Excel table for PivotTable analysis
 
-## 🛠️ Build Process (Data Cleaning, Pivot Tables & Dashboard)
+## 🛠️ Build Process ( Dashboard, Data Cleaning & Pivot Tables)
 
-### Power Query Data Cleaning
-Power Query Editor showing the raw "Sales Data" query with column quality profiling (Valid/Error/Empty) across fields like Order Id, Order Date, Customer Name, Category Name, and Customer Segment, along with the applied transformation steps (Promoted Headers, Changed Type).
+### Final Dashboard
+The completed "Bloomy Sales Performance" dashboard showing KPI cards (Total Revenue, Total Quantity, Profit Per Order, No. of Customers) alongside visuals for order volume by region, customer distribution by country, profit per order by market region, monthly sales trend, total sales by category, and customer distribution by segment — with month-based filter buttons across the top.
 
-![Power Query Data Cleaning](TJ-SAM-1.png)
-
-### Loaded Data Table
-The cleaned query loaded into an Excel worksheet, showing 53,200 rows with fields including Row_Id, Order Id, Order Date, Category Name, Customer Segment, Market Region, Additional Order Items, and Customer City — confirmed via the Queries & Connections panel.
-
-![Loaded Sales Data Table](TJ-SAM-4.png)
+![Bloomy Sales Performance Dashboard](TJ-SAM-5.png)
 
 ### PivotTables & PivotCharts (Build Stage)
 Working area showing the PivotTables and PivotCharts built from the loaded data — including the summary KPI pivot, order volume by region, sales by customer segment, sales by category, and profit per order by market region — along with a month slicer used to drive all visuals.
 
 ![PivotTables and Charts Build](TJ-SAM-3.png)
 
-### Final Dashboard
-The completed "Bloomy Sales Performance" dashboard showing KPI cards (Total Revenue, Total Quantity, Profit Per Order, No. of Customers) alongside visuals for order volume by region, customer distribution by country, profit per order by market region, monthly sales trend, total sales by category, and customer distribution by segment — with month-based filter buttons across the top.
+### Loaded Data Table
+The cleaned query loaded into an Excel worksheet, showing 53,200 rows with fields including Row_Id, Order Id, Order Date, Category Name, Customer Segment, Market Region, Additional Order Items, and Customer City — confirmed via the Queries & Connections panel.
 
-![Bloomy Sales Performance Dashboard](TJ-SAM-5.png)
+![Loaded Sales Data Table](TJ-SAM-4.png)
+
+### Power Query Data Cleaning
+Power Query Editor showing the raw "Sales Data" query with column quality profiling (Valid/Error/Empty) across fields like Order Id, Order Date, Customer Name, Category Name, and Customer Segment, along with the applied transformation steps (Promoted Headers, Changed Type).
+
+![Power Query Data Cleaning](TJ-SAM-1.png)
 
 
 ## 📊 Dashboard Structure
